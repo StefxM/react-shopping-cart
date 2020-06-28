@@ -4,4 +4,10 @@
 
 - Inside that folder create a new file named `ProductContext.js`
 
-- In this file, import the `createContext` function from the react library and create our `ProductContext`.
+- In this file, import the `createContext` function from the react library and create our `ProductContext`.*/
+import {createContext} from "react";
+
+
+const ProductContext = createContext(); 
+
+export default ProductContext;
